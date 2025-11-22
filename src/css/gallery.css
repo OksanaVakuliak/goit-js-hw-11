@@ -47,13 +47,13 @@
 .form button:hover {
   background-color: #6c8cff;
 }
-.gallery-list {
+.gallery {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 24px;
 }
-.gallery-list .gallery-item {
+.gallery .gallery-item {
   width: 360px;
   height: 200px;
 }

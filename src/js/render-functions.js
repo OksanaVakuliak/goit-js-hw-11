@@ -1,12 +1,12 @@
 import SimpleLightbox from 'simplelightbox';
 
 const refs = {
-  galleryList: document.querySelector('.gallery-list'),
+  galleryList: document.querySelector('.gallery'),
   form: document.querySelector('.form'),
   loader: document.querySelector('.loader'),
 };
 
-const lightbox = new SimpleLightbox('.gallery-list a', {
+const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 200,
 });

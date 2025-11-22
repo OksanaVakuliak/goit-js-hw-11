@@ -26,7 +26,7 @@ const onFormSubmit = event => {
       backgroundColor: '#ef4040',
       position: 'topRight',
     });
-
+    refs.form.reset();
     return;
   }
 
