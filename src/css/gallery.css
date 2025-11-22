@@ -18,7 +18,16 @@
   color: #808080;
   padding-left: 16px;
   outline: none;
+  transition: border-color linear 250ms;
 }
+
+.form input:hover {
+  border-color: #000;
+}
+.form input:focus {
+  border-color: #4e75ff;
+}
+
 .form button {
   border: none;
   border-radius: 8px;
@@ -33,6 +42,10 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  transition: background-color linear 250ms;
+}
+.form button:hover {
+  background-color: #6c8cff;
 }
 .gallery-list {
   display: flex;
